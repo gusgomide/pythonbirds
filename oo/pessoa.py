@@ -1,5 +1,5 @@
 class Pessoa :
-    def __init__(self, nome=None, idade=43):
+    def __init__(self, nome=None, idade=43 ):
         self.idade = idade
         self.nome = nome
 
@@ -7,7 +7,7 @@ class Pessoa :
         return f'Olá {id(self)}'
 
 if __name__ == '__main__':
-    p = Pessoa('Gabriel')
+    p = Pessoa('Melina')
     print(Pessoa.cumprimentar(p))
     print(id(p))
     print(p.cumprimentar())
